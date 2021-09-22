@@ -194,3 +194,5 @@ for i in track_collection:
     track_id = i[0]
     collection_id = i[1]
     connection.execute(f"INSERT INTO trackcollection VALUES({track_id}, {collection_id})")
+
+
